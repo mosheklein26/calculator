@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/app.css">
+    <link rel="stylesheet" href="./css/calculator.css">
+    <link rel="stylesheet" href="./css/display.css">
+    <link rel="stylesheet" href="./css/buttons.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="app">
+        <div id="calc">
+            <div class="display-c">
+
+                <div>
+                    <input type="text" id="display" />
+                </div>
+
+                <div class="grid-container">
+                    <button class="grid-item grid-item-1" onclick="buttonPressed('ac')">ac</button>
+                    <button class="grid-item grid-item-2" onclick="buttonPressed('c')">c</button>
+                    <button class="grid-item grid-item-3" onclick="buttonPressed('sign')">&#177;</button>
+                    <button class="grid-item grid-item-4" onclick="buttonPressed('*')">&#xd7;</button>
+
+                    <button class="grid-item grid-item-5" onclick="buttonPressed(7)">7</button>
+                    <button class="grid-item grid-item-6" onclick="buttonPressed(8)">8</button>
+                    <button class="grid-item grid-item-7" onclick="buttonPressed(9)">9</button>
+                    <button class="grid-item grid-item-8" onclick="buttonPressed('/')">&#247; </button>
+
+                    <button class="grid-item grid-item-9" onclick="buttonPressed(4)">4</button>
+                    <button class="grid-item grid-item-10" onclick="buttonPressed(5)">5</button>
+                    <button class="grid-item grid-item-11" onclick="buttonPressed(6)">6</button>
+                    <button class="grid-item grid-item-12" onclick="buttonPressed('-')">-</button>
+
+                    <button class="grid-item grid-item-13" onclick="buttonPressed(1)">1</button>
+                    <button class="grid-item grid-item-14" onclick="buttonPressed(2)">2</button>
+                    <button class="grid-item grid-item-15" onclick="buttonPressed(3)">3</button>
+                    <button class="grid-item grid-item-16" onclick="buttonPressed('+')">+</button>
+
+                    <button class="grid-item grid-item-17" onclick="buttonPressed(0)">0</button>
+                    <button class="grid-item grid-item-18" onclick="buttonPressed('.')">.</button>
+                    <button class="grid-item grid-item-19" onclick="buttonPressed('=')">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

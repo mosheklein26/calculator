@@ -1,0 +1,22 @@
+#calc{
+    display: flex;
+    flex-wrap: wrap;
+    width: 226px;
+    height: 326px;
+    margin-top: 17px;
+    background-color:#0B4157;
+    border-radius: 13px;
+}
+.display-c{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 100%;
+}
+.clear-c{
+    flex-basis: 80%;
+   
+}
+.action-c {
+    flex-basis: 20%;
+}

@@ -1,0 +1,21 @@
+@font-face {
+    font-family: digital-7;
+    src: url('../assets/fonts/digital-7.ttf');
+  }
+#display {
+    background-color: #A5C187;
+    color: #151B0F;
+    
+    font-family: digital-7;
+    font-size: 21px;
+    
+    border:none;
+    height: 28px;
+    line-height: 28px;
+    
+    text-indent: 10px;
+    /* width: 80%; */
+    margin-top:10px;
+    padding-bottom: 3px;
+    
+}
